@@ -1,0 +1,86 @@
+.section#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+/*icones */
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* link e texto de display*/
+.contact-card a,
+.contact-card span {
+    flex-grow: 1;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Estilo do card */
+.contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%; /* Define uma largura total */
+    max-width: 400px; /* Define uma largura máxima */
+}
+
+/* Contêiner com ícone e texto */
+.contact-card-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    overflow: hidden; /* Esconde o texto excedente */
+}
+
+/* Ícone da rede social */
+.contact-icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+/* Texto do link */
+.contact-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Limita o texto e adiciona '...' se necessário */
+}
+
+/* Botão */
+.contact-btn {
+    background-color: #00bfff; /* Verde */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    flex-shrink: 0; /* Evita que o botão encolha */
+}
+
+.contact-btn:hover {
+    background-color: #007acc;
+}
+
+/* Animação de sucesso */
+.contact-btn.copied {
+    background-color: #32cd32; /* Cor verde-lima para indicar cópia */
+}
