@@ -1,3 +1,15 @@
+#planos,
+#servicos,
+#contatos {
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+
+body {
+    padding-top: 100px;
+}
+
 .section#contact {
     display: flex;
     flex-direction: column;

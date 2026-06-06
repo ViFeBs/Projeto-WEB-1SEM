@@ -3,77 +3,89 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lorem Ipsu</title>
+        <title>TIX Turismo</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link href="styles/style.css" rel="stylesheet">
+        <link rel="icon" type="image/jpg" href="./src/icon.jpg">
     </head>
     <body>
-        <header class="navbar bg-dark fixed-top"> 
+        <header class="navbar bg-light fixed-top"> 
             <div class="container">
-                <a class="navbar-brand text-white d-flex flex-row gap-3" href="#">
-                    <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                    <h1 class="fs-5">... Viagens</h1>
+                <a class="navbar-brand text-white d-flex flex-row gap-3" href="#planos">
+                    <img src="./src/logo.png" alt="Logo" width="130" height="100" class="d-inline-block align-text-top">
                 </a>
                 <nav class="navbar-nav">
                     <ul class="nav">
-                        <li class="nav-item"><a class="nav-link text-white" href="#servicos">Serviços</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#quemSomos">Quem Somos</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#">Contatos</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#planos">Planos de Viagens</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#servicos">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#contatos">Contatos</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main>
-            <section id="servicos">
-                <section class="d-flex flex-column container pt-4 align-items-center">
-                    <h2>
-                        Fazemos o planejamento completo da sua viagem
-                    </h2>
-                    <div class="d-flex flex-row gap-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Roteiro</h5>
-                                <p class="card-text">Criamos roteiros personalizados com os melhores pontos turísticos, atrações e experiências de cada destino, garantindo uma viagem organizada, prática e inesquecível.</p>
-                            </div>
+            <section class="d-flex flex-column container align-items-center" id="planos">
+                <h2>
+                    Pacotes de Viagens:
+                </h2>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-5">
+                            <img class="img-fluid rounded img-thumbnail h-100 w-100 object-fit-cover" src="./src/banner.png" alt="Qual é o seu plano de viagem? a tix vai te ajudar a transformar em realidade!">
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Compramos suas Passagens</h5>
-                                <p class="card-text">Cuidamos da compra das suas passagens, buscando as melhores opções de voos e horários para garantir praticidade, economia e tranquilidade durante sua viagem.</p>
-                            </div>
+                        <div class="col">
+                            <a href="#contatos">
+                                <img src="./src/Disney.jpg" class="rounded h-100 w-100 object-fit-cover" alt="Pacote de viagem disney parque aquático">
+                            </a>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Cuidamos da sua Hospedagem</h5>
-                                <p class="card-text">Selecionamos e reservamos sua hospedagem com cuidado, priorizando conforto, localização e custo-benefício para que você aproveite sua viagem sem preocupações.</p>
-                            </div>
+                        <div class="col">
+                            <a href="#contatos">
+                                <img src="./src/DisneyHalloween.jpg" class="rounded h-120 w-100 object-fit-cover" alt="Pacote de viagem Disney Halloween">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#contatos">
+                                <img src="./src/europa.jpg" class="rounded h-120 w-100 object-fit-cover" alt="Pacote de Viagem Europa">
+                            </a>
                         </div>
                     </div>
-                </section>
-                <section class="row pt-4 justify-content-center">
-                    <div class="col-6">
-                        <h2 class="text-center">Detalhes</h2>
-                        <p class="w-100 text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quos fuga quod repellendus ex. Eum corporis voluptatem excepturi. Inventore laudantium laboriosam dolores reiciendis rerum repellendus consectetur iusto, asperiores ipsum quam reprehenderit minus, dolor voluptates, fuga molestias magni architecto. Animi rerum accusamus repellendus magni qui sed, non aut atque facilis molestiae modi necessitatibus voluptatem veritatis quidem laborum sint optio ipsam vero earum! Aliquid, praesentium. Perspiciatis.
-                        </p>
-                    </div>
-                    <div class="col-3">
-                        <img class="img-fluid rounded img-thumbnail" src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Imagem">
-                    </div>
-                </section>
+                </div>
             </section>
-            <section id="quemSomos">
-                <section class="d-flex flex-column container pt-4 align-items-start">
-                    <h2>
-                        Quem Somos
-                    </h2>
-                    <p class="w-100 text-start">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quos fuga quod repellendus ex. Eum corporis voluptatem excepturi. Inventore laudantium laboriosam dolores reiciendis rerum repellendus consectetur iusto, asperiores ipsum quam reprehenderit minus, dolor voluptates, fuga molestias magni architecto. Animi rerum accusamus repellendus magni qui sed, non aut atque facilis molestiae modi necessitatibus voluptatem veritatis quidem laborum sint optio ipsam vero earum! Aliquid, praesentium. Perspiciatis.
-                    </p>
-                </section>
+
+            <section class="row justify-content-center" style="background-color: darkblue;" id="servicos">
+                <h2 class="text-center text-white">
+                    Outros Serviços:
+                </h2>
+                <div class="col">
+                    <a href="#contatos">
+                        <img class="img-fluid" src="./src/cambio-2.png" alt="cambio">
+                    </a>  
+                </div>
+                <div class="col">
+                    <a href="#contatos">
+                        <img class="img-fluid" src="./src/chip-2.png" alt="chip">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#contatos">
+                        <img class="img-fluid" src="./src/ingressos-1.png" alt="ingressos">
+                    </a>               
+                </div>
+                <div class="col">
+                    <a href="#contatos">
+                        <img class="img-fluid" src="./src/disney.png" alt="disney">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#contatos">
+                        <img class="img-fluid" src="./src/seguro-2.png" alt="seguro">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#contatos">
+                        <img class="img-fluid" src="./src/locacao-2.png" alt="locação">
+                    </a>
+                </div>
             </section>
             <section id="contatos">
                 <section class="section full-screen" id="contact">
@@ -81,35 +93,34 @@
                     <!-- Card para o Whatsapp -->
                     <div class="contact-card">
                         <img src="./src/wpicon.png" alt="WhatsApp" class="icon" />
-                        <a href="#" target="_blank">WhatsApp</a>
-                        <button onclick="window.open('#', '_blank')" class="contact-btn" id="contactbtn">Visitar</button>
+                        <a href="#" target="_blank">Whatsapp: (11) 98824-8992</a>
+                        <button onclick="window.open('https://api.whatsapp.com/send/?phone=5511988248992', '_blank')" class="contact-btn" id="contactbtn">Visitar</button>
                     </div>
 
                     <!-- Card para o Instagram -->
                     <div class="contact-card">
                         <img src="./src/instaicon.png" alt="Instagram" class="icon" />
                         <a href="#" target="_blank">Instagram</a>
-                        <button onclick="window.open('#', '_blank')" class="contact-btn" id="contactbtn">Visitar</button>
+                        <button onclick="window.open('https://www.instagram.com/tixturismoitatiba?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', '_blank')" class="contact-btn" id="contactbtn">Visitar</button>
                     </div>
 
                     <!-- Card para Email -->
                     <div class="contact-card">
                         <img src="./src/email.png" alt="Email" class="icon" />
-                        <span>email@email.com</span>
-                        <button onclick="copyEmail('email@email.com')" class="contact-btn" id="emailbtn">Copiar</button>
+                        <span>tixitatiba@tixturismo.com.br</span>
+                        <button onclick="copyEmail('tixitatiba@tixturismo.com.br')" class="contact-btn" id="emailbtn">Copiar</button>
                     </div>
+                    <p>
+                        De segunda à sexta: 09h00 ~ 18h00
+                    </p>
+                    <p>
+                        Sábados: 09h00 ~ 13h00
+                    </p>
                 </section>
             </section>
         </main> 
         <footer class="py-3 bg-dark ">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
-            </ul>
-            <p class="text-center text-white">© 2025 Company, Inc</p>
+            <p class="text-center text-white">© TIX Turismo: Especialista em Turismo</p>
         </footer>
 
 
